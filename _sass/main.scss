@@ -1,3 +1,143 @@
-.current {
-  color: green;
+* {
+  font-family: inherit;
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(1em + 0.33vw);
+}
+
+body {
+  font-family: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "sans-serif";
+  line-height: 1.5;
+  background-color: #fefefe;
+  color: #121212;
+  max-width: 700px;
+  margin: auto;
+}
+
+*+* {
+  margin-top: 1rem;
+}
+
+ul {
+  overflow: hidden;
+  padding-left: 2em;
+}
+
+br, li+li, body {
+  margin-top: 0;
+}
+
+p+p {
+  margin-top: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #007b9c;
+  color: inherit;
+  outline-offset: 2px;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.125;
+  max-width: 800px;
+}
+
+h2 a, h3 a, h4 a {
+  border-bottom: 0;
+}
+
+h2 a:hover, h3 a:hover, h4 a:hover {
+  border-bottom: 1px solid #007b9c;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 5% auto;
+}
+
+h2 {
+  font-size: 1.66rem;
+  margin: 5% auto;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 0.33rem;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, "Andale Mono", "lucida console", "Courier New", monospace;
+  font-size: 0.85em;
+}
+
+.link {
+  font-size: 1.3rem;
+  line-height: 1.125;
+  max-width: 800px;
+  margin: 5% auto;
+}
+
+.back {
+  font-size: 1.25rem;
+  border-radius: 0.33em;
+  background: #111;
+  color: #fefefe;
+  padding: 0.75rem;
+  border: 0;
+}
+
+.p-final {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.date {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.headers {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 45em) {
+  body {
+    padding: 25px;
+  }
+
+  body a {
+    hyphens: auto;
+  }
+
+  h1 {
+   margin-left: 0;
+   margin-top: 0;
+   max-width: 75%;
+  }
+
+  code {
+    word-break: break-all;
+  }
+}
+
+@media print {
+  a {
+    border: 0;
+  }
+
+  pre code {
+    white-space: pre-wrap !important;
+  }
 }
