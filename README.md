@@ -1,6 +1,6 @@
-# 周昌权的小黑板
+# 周昌权的网络日志
 
-## Development
+## 本地预览
 
 ```
 gem install bundler
