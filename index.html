@@ -1,17 +1,27 @@
 ---
-layout: home
+layout: default
 ---
 
 <h1>最近文章</h1>
 
-<ul>
+<ul class="recent-posts-list">
   {% for post in site.posts limit: 7 %}
     <li class="link">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
     </l>
   {% endfor %}
 </ul>
 
-<p><a href="/blog">所有文章>>></a></p>
+<p><a href="/blog">所有文章&gt;&gt;&gt;</a></p>
 
-{% include about.html %}
+<h1>关于我</h1>
+
+<p>我是周昌权，2014 年开始自学 Ruby 编程和 Ruby on Rails 框架，前后端都略懂一点。使用 Rails 至今从零到一上线十多个网站、微信公众号、微信小程序、移动应用，涵盖了基金、教育、法律、电商等多个行业。</p>
+
+<h1>关于博客</h1>
+
+<p>这个博客基于 Jekyll 构建，不使用任何浏览器端 JavaScript 代码。这里分享一些关于生活、感想、阅读、软件开发的文章。多数内容是为了我自己而写，但也希望能为正在阅读本博客的你提供一些有用的价值。</p>
+
+<p>感谢你的阅读，可以通过 chowcheongkuen # gmail.com 联系我。</p>
