@@ -1,0 +1,13 @@
+@media print {
+  a {
+    border: 0;
+  }
+
+  pre code {
+    white-space: pre-wrap !important;
+  }
+
+  .p-final {
+    display: none;
+  }
+}
