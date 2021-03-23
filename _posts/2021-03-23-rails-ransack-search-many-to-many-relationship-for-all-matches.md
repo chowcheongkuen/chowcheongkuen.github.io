@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails + Ranscak: 多对多关系的全匹配搜索
+title: "Rails + Ranscak: 多对多关系的全匹配搜索"
 date: 2021-01-31 14:03
 ---
 
