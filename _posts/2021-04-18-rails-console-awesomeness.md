@@ -120,3 +120,5 @@ irb(main):007:0> Product.instance_method(:full_title).source_location
 ```
 
 Ref: [Rails console awesomeness](https://longliveruby.s3-us-west-1.amazonaws.com/rails_console_awesomeness.pdf)
+
+**-EOF-**

@@ -120,3 +120,5 @@ irb(main): r.pluck :title
 - [ActiveRecord & ARel](https://www.slideshare.net/flah00/activerecord-arel)
 - [arel/select_manager_test.rb](https://github.com/rails/rails/blob/main/activerecord/test/cases/arel/select_manager_test.rb)
 - [brynary / arel](https://github.com/brynary/arel)
+
+**-EOF-**
